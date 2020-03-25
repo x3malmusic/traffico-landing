@@ -1,3 +1,9 @@
+.section {
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .awesome-traffic-section {
     max-width: 1600px;
     width: 100%;
@@ -10,9 +16,6 @@
 
 .awesome-traffic-section-content {
     box-sizing: border-box;
-    max-width: 1176px;
-    width: 100%;
-    margin: 0 auto;
     padding: 46px 24px;
 }
 
@@ -29,4 +32,8 @@ h1 {
     position: absolute;
     bottom: -184px;
     left: 1px;
+}
+
+.sections-section {
+    padding-top: 300px;
 }
