@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!--    your awesome traffic-->
+    <section class="awesome-traffic-section">
+      <Header />
+      <div class="awesome-traffic-section-content">
+        <h1>Your awesome traffic permit consultant.</h1>
+        <Btn title="get started" :arrow="true" />
+      </div>
+      <img src="./assets/Home/mobel.png" alt="" class="traffic-car"/>
+    </section>
+    <!--    your awesome traffic end-->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header/Header.vue";
+import Btn from "./components/Button/Btn.vue";
+
+import "./main.css";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    Btn,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>

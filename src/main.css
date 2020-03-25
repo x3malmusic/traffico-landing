@@ -1,0 +1,32 @@
+.awesome-traffic-section {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background: url("./assets/Home/Scene.png");
+    background-repeat: no-repeat;
+    height: 1005px;
+}
+
+.awesome-traffic-section-content {
+    box-sizing: border-box;
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 46px 24px;
+}
+
+h1 {
+    max-width: 625px;
+    width: 100%;
+    line-height: 100px;
+    margin: 0 0 56px 0;
+    font-size: 100px;
+    color: #fff;
+}
+
+.traffic-car {
+    position: absolute;
+    bottom: -184px;
+    left: 1px;
+}
