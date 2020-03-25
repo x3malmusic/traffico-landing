@@ -1,19 +1,20 @@
 <template>
   <div class="section-wrapper">
     <div class="section-content">
-      <h3>{{ title }}</h3>
-      <p>{{ text }}</p>
-      <div>
-        <h3>{{ warning }}</h3>
+      <h3 class="title">{{ title }}</h3>
+      <p class="text">{{ text }}</p>
+      <div class="warning-wrapper">
+        <div class="warning-bg"></div>
+        <h3 class="warning">{{ warning }}</h3>
       </div>
     </div>
-    <img :src="getImg" alt="" />
+    <div class="img-wrapper">
+      <img src="../../assets/Home/man.png" alt="" />
+    </div>
   </div>
 </template>
 
 <script>
-import "./sectioncomponent.css";
-
 export default {
   props: {
     title: String,
@@ -29,3 +30,7 @@ export default {
   name: "SectionComponent",
 };
 </script>
+
+<style scoped>
+@import "sectioncomponent.css";
+</style>
