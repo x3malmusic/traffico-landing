@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import "./header.css";
 import Btn from "../Button/Btn.vue";
 
 export default {
@@ -30,3 +29,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@import "./header.css";
+</style>

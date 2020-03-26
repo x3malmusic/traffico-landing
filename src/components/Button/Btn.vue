@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import "./btn.css";
-
 export default {
   props: {
     title: String,
@@ -16,3 +14,7 @@ export default {
   name: "Btn",
 };
 </script>
+
+<style scoped>
+@import "./btn.css";
+</style>

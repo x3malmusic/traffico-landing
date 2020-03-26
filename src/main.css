@@ -35,5 +35,72 @@ h1 {
 }
 
 .sections-section {
-    padding: 286px 0px 0 46px;
+    box-sizing: border-box;
+    padding: 286px 46px 0 46px;
+}
+
+.faq {
+    padding: 125px 0 0 0;
+    max-width: 1600px;
+    width: 100%;
+    height: 1500px;
+    background-position: right;
+    background-image: url('./assets/Home/faq-bg.png');
+    background-repeat: no-repeat;
+}
+
+.faq-content {
+    box-sizing: border-box;
+    padding: 36px 46px 0 46px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-section {
+    display: flex;
+}
+
+.faq-section-text {
+    margin: 105px 0 0 46px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.faq-title {
+    text-transform: uppercase;
+    color: #EE4D47;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 49px;
+}
+
+.faq-text {
+    line-height: 68px;
+    font-size: 48px;
+}
+
+.faq-section-img-wrapper {
+    width: 100%;
+}
+
+.faq-section-img-wrapper img {
+    width: 97%;
+}
+
+.faq-section-content {
+    box-sizing: border-box;
+    padding: 119px 28px 46px 28px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.accordion-row {
+    margin: 0 0 10px 0;
+    width: 49%;
 }
