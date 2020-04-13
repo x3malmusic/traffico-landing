@@ -104,3 +104,37 @@ h1 {
     margin: 0 0 10px 0;
     width: 49%;
 }
+
+.about-us-section {
+    max-width: 1600px;
+    width: 100%;
+}
+
+.about-us-content-section {
+    margin-left: 15%;
+    display: flex;
+}
+
+.about-us-clients-text {
+    max-width: 250px;
+    width: 100%;
+}
+
+.about-us-clients-title {
+    color: #EE4D47;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.about-us-clients-awesome {
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.slider {
+    display: flex;
+}
+
+.slider-card-width {
+    display: flex;
+}

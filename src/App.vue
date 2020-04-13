@@ -51,6 +51,27 @@
       </div>
     </section>
     <!--   FAQ end-->
+
+    <!--   About us -->
+    <section class="about-us-section">
+      <div class="about-us-content-section">
+        <div class="about-us-clients-text">
+          <h3 class="about-us-clients-title">about us</h3>
+          <h2 class="about-us-clients-awesome">Our Awesome Clients</h2>
+        </div>
+        <div class="slider">
+          <div class="slider-card-width" v-for="card in sliderCards">
+            <SliderCard
+              :text="card.text"
+              :avatar="card.avatar"
+              :name="card.name"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--   About us end-->
   </div>
 </template>
 
@@ -60,6 +81,7 @@ import Btn from "./components/Button/Btn.vue";
 import SectionComponent from "./components/SectionComponent/SectionComponent.vue";
 import Accordion from "./components/Accordion/Accordion.vue";
 import AccordionBtn from "./components/Accordion/AccordionButton.vue";
+import SliderCard from "./components/SliderCard/SliderCard.vue";
 
 import "./main.css";
 
@@ -71,6 +93,7 @@ export default {
     SectionComponent,
     Accordion,
     AccordionBtn,
+    SliderCard,
   },
   data: () => ({
     sections: [
@@ -142,6 +165,20 @@ export default {
         title: "How is the sample for a professional traffic permit booked?",
         text:
           "Traffic permits are a requirement for conducting professional traffic.",
+      },
+    ],
+    sliderCards: [
+      {
+        text:
+          "Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.",
+        avatar: "ava_1.png",
+        name: "Isak Pettersson",
+      },
+      {
+        text:
+          "From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan.",
+        avatar: "ava_2.png",
+        name: "Simon Sandberg",
       },
     ],
   }),
